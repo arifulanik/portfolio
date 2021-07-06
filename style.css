@@ -9,14 +9,20 @@ span{
 
 section{
     display: flex;
+    height: 500px;
+    
 }
 #first-sec{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
 }
 .first-part{
-    width: 50%;
-    padding-left: 5%;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .first-part a{
     text-decoration: none;
@@ -32,13 +38,43 @@ section{
 .first-part a:hover{
     font-weight: 900;
 }
-.first-image{
-    width: 40%;
-    padding-left: 15%;
-    height: 300px;
-}
-.first-image img{
-    width: 70%;
-    height: 100%;
+
+.first-part img{
+    width: 100%;
+    
 
 }
+#second-sec{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+
+.sec-img{
+    width: 50%;
+}
+.sec-img img{
+    
+    width: 100%;
+    border-radius: 90%;
+}
+.sec-part{
+    width: 50%;
+    padding-left: 30px;
+    margin-left: 100px;
+
+}
+.sec-part a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,yellow,red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+.sec-part a:hover{
+     font-weight: 900;
+}
+
+
