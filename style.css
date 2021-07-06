@@ -104,4 +104,22 @@ span{
 .last-part h3{
    color: peru;
 }
-. :first-child
+#last-part-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato,red);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    height: 50px
+}
+footer p{
+    padding: 10px 20px;
+}
