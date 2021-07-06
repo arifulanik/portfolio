@@ -7,12 +7,12 @@ span{
     color: chocolate;
 }
 
-section{
+.flex-contain{
     display: flex;
     height: 500px;
     
 }
-#first-sec{
+.first-sec{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 150px;
@@ -44,25 +44,28 @@ section{
     
 
 }
-#second-sec{
+.second-sec{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 60%;
    
 }
 
 .sec-img{
     width: 50%;
+    padding-left: 7%;
+    
 }
 .sec-img img{
     
-    width: 100%;
+    width: 90%;
     border-radius: 90%;
 }
 .sec-part{
     width: 50%;
-    padding-left: 30px;
-    margin-left: 100px;
+    padding-left: 20px;
+    
 
 }
 .sec-part a{
@@ -77,4 +80,28 @@ section{
      font-weight: 900;
 }
 
+.third-sec{
+    margin-top: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    
+}
 
+.last-part{
+    width:35%;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 5px 6px 40px 5px #888888;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+.last-part h3{
+   color: peru;
+}
+. :first-child
